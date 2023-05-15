@@ -1,132 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            CV_BC210427835
-        </title>
-        <style>
-			body{
-				background-color:wheat;
-				}
-			h3{
-				align-content:center;
-				}
-            table{
-                padding: 20px;
-				margin:20px;
-				border:solid black;
-               
-				}
-			
+<head>
+    <title>
+        CV_BC210427835
+    </title>
+    <meta name="description" content="Assignment No.01">
+    <meta name="author" content="MAHBOOB ALAM BC210427835">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- backup of Assignment can be accessed at https://infinity-decoder.github.io/VU-Assignmnets/CS202_01_BC210427835.html -->
+    <!-- CSS for current html -->
+    <style>
+        body{
+            background-color:wheat;
+        }
 
-        </style>
+        table{
+            padding: 1px;
+            margin:5px;
+            border:2px double black;
 
-    </head>
-    <body>
-       
-        <h1> Curriculum Vitae</h1>
+            width:500px;
+        }
+        th, td{
+            border:1px double black;
+            padding: 10px;
+            width:50px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+	<h1> Curriculum Vitae</h1>
+	<form>
 		<div>
-        <h3> Personal Information</h3>
-		<form>
-        
-           <table>
-                <tbody>
-                <tr> 
-                    <td>Name</td>
-					<td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="text"></td>
+		<h3> Personal Information</h3>
+    <!-- No placeholders were introduced as it was not visible in Assignment image-->
+    
 
-                </tr>
-                <tr>
-                    <td>Phone</td>
-                    <td><input type="text"></td>
+        <table>
+            <tbody>
+            <tr>
+                <th>Name :</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Email :</th>
+                <td><input type="text"></td>
 
-                </tr>
-                <tr>
-                    <td>Adress</td>
-                    <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Phone :</th>
+                <td><input type="text"></td>
 
-                </tr>
-                <tr>
-                    <td>Gender</td>
-                    <td><input type="radio" value="Male">Male
-					<input type="radio" value="Female">Female</td>
+            </tr>
+            <tr>
+                <th>Address :</th>
+                <td><input type="textarea" id="address"> </td>
 
-                </tr>
-				<tr>
-                    <td>Hobbies</td>
-                    <td><input type="checkbox" >Drawing
-					<input type="checkbox" >Cooking
-					<input type="checkbox" >Games
-					<input type="checkbox" >Others
-					<input type="text" ></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" value="Male">Male
+                    <input type="radio" value="Female">Female</td>
 
-                </tr>
-                
-                </tbody>
-            </table>
-			</div>
-			<div>
-			<h3> Education</h3>
-			<table>
-                <tbody>
-                <tr> 
-                    <td>Degree</td>
-					<td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Major</td>
-                    <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td><input type="checkbox" >Drawing
+                    <input type="checkbox" >Cooking
+                    <input type="checkbox" >Games <br>
+                    <input type="checkbox" >Others
+                    <input type="text" ></td>
 
-                </tr>
-                <tr>
-                    <td>University</td>
-                    <td><input type="text"></td>
+            </tr>
 
-                </tr>
-                <tr>
-                    <td>Graduation Date</td>
-                    <td><input type="date"></td>
+            </tbody>
+        </table>
+    
+		</div>
+		<div>
+		<h3> Education</h3>
+    
+        <table>
+            <tbody>
+            <tr>
+                <th>Degree :</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Major :</th>
+                <td><input type="text"></td>
 
-                </tr>
-				</table>
-				</div>
-				<div>
-				<h3> Experience</h3>
-			<table>
-                <tbody>
-                <tr> 
-                    <td>Job title</td>
-					<td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Company</td>
-                    <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>University :</th>
+                <td><input type="text"></td>
 
-                </tr>
-				 <tr>
-                    <td>Employment Date</td>
-                    <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>Graduation Date :</th>
+                <td><input type="date"></td>
 
-                </tr>
-                <tr>
-                    <td>Job description</td>
-                    <td><input type="text"></td>
+            </tr>
+        </table>
+    
+		</div>
+		<div>
+		<h3> Experience</h3>
+    
+        <table>
+            <tbody>
+            <tr>
+                <th>Job title :</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Company :</th>
+                <td><input type="text"></td>
 
-                </tr>
-               
-          
-                
-                </tbody>
-            </table>
-			</div>
-			<input type="submit" value="Submit">
-			<input type="reset" value="Reset"> 
-        
-        </form>
+            </tr>
+            <tr>
+                <th>Employment Date :</th>
+                <td><input type="date"></td>
 
-    </body>
+            </tr>
+            <tr>
+                <th>Job description :</th>
+                <td> <input type ="text" id="job-description"> </td>
+
+            </tr>
+
+
+
+            </tbody>
+        </table>
+    
+		</div>
+<!-- Buttons of form -->
+		<div>
+    
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+    
+		</div>
+	</form>
+
+</body>
 </html>
